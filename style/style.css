@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: red;
+    font-size: large;
+    color: green;
+    list-style-type: none;
+    padding: 50px;
+}
+
+.navbar > ul > li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    display: flex;
+}
