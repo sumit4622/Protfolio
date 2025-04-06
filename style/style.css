@@ -3,21 +3,43 @@
     margin: 0px;
 }
 
-.navbar{
-    background-color: red;
+.conitener{
+    background-color: blue;
+    height: 100vh;
+    width: 22vw;
+
+    
+}
+
+.navbar > ul{
+    list-style: none;
     font-size: large;
-    color: green;
-    list-style-type: none;
-    padding: 50px;
-}
 
-.navbar > ul > li {
-    list-style-type: none;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
+    color:white;
 }
 
-.navbar > ul {
-    list-style-type: none;
-    display: flex;
+.link > a{
+    text-decoration: none;
+    color: white;
+}
+
+.hamburg{
+position: absolute;
+cursor: pointer;
+top: 10px;
+left: 10px;}
+
+@media (max-width: 650px) {
+    *{
+        background-color: green;
+        }
+    .navbar > ul{
+        transform: translate(-443px, 0px);
+    }
+    
 }
