@@ -1,0 +1,18 @@
+.Contact{
+    background-color: red;
+    color: white;
+}
+
+.Contact {
+    margin-top: 1rem;
+    padding:  4.5rem;
+    text-align: left;
+}
+
+.Contact .name{
+    padding: 0 3rem;
+    text-align: justify;
+}
+
+
+
